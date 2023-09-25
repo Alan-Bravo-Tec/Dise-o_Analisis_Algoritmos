@@ -1,10 +1,9 @@
-var n,a,b,c;
-var n = prompt("Introduce hasta que posicion quieres saber: ");
-a=1;
-b=1;
-    for (var i = 1; i < n ; i++) {
-        console.log(""+a);
-        c=a+b;
-        a=b;
-        b=c;
+function Fibonacci (n){
+    if(n==1||n==2){
+        return 1
     }
+    else{
+        return (Fib(n-1)+Fib(n-2))
+    }
+
+}
