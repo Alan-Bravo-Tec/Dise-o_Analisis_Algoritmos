@@ -13,7 +13,7 @@ function Dominantes(A) {
         }
     }
 
-    Dom[j] = A[A.length - 1];
+    Dom[j] = A[A.length];
     return Dom;
 }
 
